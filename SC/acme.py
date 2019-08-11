@@ -47,7 +47,7 @@ class Product:
         x = self.flammability * self.weight
         if x < 10:
             return '...fizzle.'
-        elif 50 > x >= 10:
+        elif 10 <= x < 50:
             return '...boom!'
         else:
             return '...BABOOM!!'
